@@ -22,5 +22,6 @@ public class _11_String {
         System.out.println("Yazılan index sayısından itibaren gösterir"+kelime.substring(1));
         System.out.println("İndex arasını gösterir"+kelime.substring(0,3));
         System.out.println("Sona Ekleme"+kelime.concat("-sona ekleme"));
+        System.out.println("Dolu mu Boş Mu"+kelime.isEmpty());
     }
 }
